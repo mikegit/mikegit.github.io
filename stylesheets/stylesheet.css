@@ -10,7 +10,7 @@ body {
   color: #606c71; }
 
 a {
-  color: #1e6bb8;
+  color: #20011F;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -56,12 +56,17 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-color: #2D072D;
+  background-image: linear-gradient(120deg, #20011F, #2D072D);
+
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 5rem 6rem;
+    padding: 3rem 12rem;
+  }
+}
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
@@ -112,7 +117,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #20011F; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
